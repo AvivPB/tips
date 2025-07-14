@@ -172,6 +172,46 @@
 					}
 				}
 			]
+		},
+
+		{
+			"name": "X-ray Imaging and Spectroscopy Mission",
+			"nameshort": "XRISM",
+			"location": "Near-circular Earth orbit with an apogee of ~575 km, an inclination of ~31 degrees wrt to Earth's equator, and an orbital period of ~96 minutes",
+			"primirror": "Effective aperture diameter of 12 (inner) - 45 (outer) cm; effective area of 587 sq. cm at 1.5 keV, 438 sq. cm at 4.5 keV, 418 sq. cm at 6.4 keV",
+			"image": "./img/xrism-jaxa.png",
+			"imcredit": "JAXA",
+			"website": "https://xrism.isas.jaxa.jp/research/",
+			"instruments": [
+				{
+					"name": "LSSTCam",
+					"namelong": "Legacy Survey of Space and Time Camera",
+					"firstlight": "2025",
+					"type": "Imager",
+					"wavelengths": [350, 1000, "nm"],
+					"filters": "ugrizy",
+					"detector": "3.2 gigapixel mosaic of 189 CCDs",
+					"resolution": "0.2&Prime;",
+					"fov": "3.5&deg;",
+					"maglimit": "27th magnitude (10-year limit)",
+					"targets": ["Main science drivers"],
+					"details" : {
+						"detector": ["189 4k x 4k pixel, 10 &mu;m pitch CCDs:<br>&emsp;117x Teledyne e2v CCD250-82<br>&emsp;72x University of Arizona ITL 3800C",
+									 "5.40 / 6.21 e- read noise (e2v / ITL)",
+									 "0.023 / 0.021 e-/px/s dark current (e2v / ITL)"],
+						"maglimit" : ["<table><tr><th>Filter&ensp;</th><th>Single exposure limit&ensp;</th><th>10-year limit</th></tr> <tr><td><i>u</i></td><td>23.9</td><td>26.1</td></tr> <tr><td><i>g</i></td><td>25.0</td><td>27.4</td></tr> <tr><td><i>r</i></td><td>24.7</td><td>27.5</td></tr> <tr><td><i>i</i></td><td>24.0</td><td>26.8</td></tr> <tr><td><i>z</i></td><td>23.3</td><td>26.1</td></tr> <tr><td><i>y</i></td><td>22.1</td><td>24.9</td></tr> </table>"],
+						"targets" : [["Probing dark energy and dark matter",
+									  "Taking an inventory of the solar system",
+									  "Exploring the transient optical sky",
+									  "Mapping the Milky Way"]],
+						"other": [
+							"<b>Wide Fast Deep</b>: 10-year survey of the southern sky, with ~30-second exposures every ~3days for each pointing",
+							"<b>Deep Drilling Fields</b>: 5 small fields with higher sampling rates",
+							"<b>Targets of Opportunity</b>: Follow-ups of transient events"
+						]
+					}
+				}
+			]
 		}
 	]
 	}
