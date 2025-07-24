@@ -184,7 +184,7 @@
 			"website": "https://xrism.isas.jaxa.jp/research/",
 			"instruments": [
 				{
-					"name": "LSSTCam",
+					"name": "Resolve",
 					"namelong": "Legacy Survey of Space and Time Camera",
 					"firstlight": "2025",
 					"type": "Imager",
